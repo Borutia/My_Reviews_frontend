@@ -1,0 +1,39 @@
+.block_sign{
+    display: flex;
+    position: fixed;
+    right: 1%;
+    font-size: 20px;
+}
+
+.block_sign a{
+    padding: 10px;
+    outline: none;
+}
+
+#href_sign_up, #href_sign_in, #href_index{
+    text-decoration: none;
+}
+
+#href_sign_up:focus, #href_sign_in:focus, #href_index:focus {
+    outline: none;
+}
+
+#href_sign_up:hover, #href_sign_in:hover, #href_index:hover{ 
+    text-decoration: underline;
+} 
+
+.block_logo{
+    position: absolute;
+    height: 100%;
+    left: 30%;
+    right: 30%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.block_logo span{
+    font-size: 48px;
+}
